@@ -1,7 +1,7 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
-import {SiSpring, FaHome, FaCogs} from 'react-icons/all'
-import {APP_URL, APP_HOME_URL, APP_CRUD_URL} from '../../../url/AppUrl'
+import {SiSpring, FaHome, FaCogs, FaUserCheck, FaUser} from 'react-icons/all'
+import {APP_URL, APP_HOME_URL, APP_CRUD_URL, APP_SECURITY_AUTHENTICATE_URL, APP_SECURITY_PROFILE_URL} from '../../../url/AppUrl'
 import LinkLayout from './_util_/nav/LinkLayout'
 
 const CenterLayout = () => {
@@ -27,6 +27,10 @@ const CenterLayout = () => {
                     <div className="navbar-nav m-0 p-0">
                         <LinkLayout icon={FaHome} text={"Home"} to={APP_HOME_URL} onClick={handleNavLinkOnClick}/>
                         <LinkLayout icon={FaCogs} text={"CRUD"} to={APP_CRUD_URL} onClick={handleNavLinkOnClick}/>
+                    </div>
+                    <div className="navbar-nav m-0 ms-auto p-0">
+                        <LinkLayout icon={FaUserCheck} text={"Authenticate"} to={APP_SECURITY_AUTHENTICATE_URL} onClick={handleNavLinkOnClick}/>
+                        <LinkLayout icon={FaUser} text={"Profile"} to={APP_SECURITY_PROFILE_URL} onClick={handleNavLinkOnClick}/>
                     </div>
                 </div>
             </nav>
