@@ -28,7 +28,10 @@ const HomeView = () => {
                 <AvatarLayout>
                     <AvatarImageLayout src={AvatarImage}/>
                     <AvatarContentLayout>
-                        <h5 className="m-0 p-0">{"Enier Ramos García"}</h5>
+                        <h5 className="m-0 mt-3 p-0">{"Enier Ramos García"}</h5>
+                        <h6 className="m-0 mt-1 p-0 text-muted">{"Newport News, VA"}</h6>
+                        <h6 className="m-0 mt-1 p-0 text-muted">{"+1 (757) 230 0031"}</h6>
+                        <h6 className="m-0 mt-1 p-0 text-muted"><a href="mailto:enier290188@gmail.com">enier290188@gmail.com</a></h6>
                     </AvatarContentLayout>
                 </AvatarLayout>
             </LeftLayout>
