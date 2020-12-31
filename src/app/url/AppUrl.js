@@ -6,6 +6,7 @@ export const APP_HOME_RESUME_URL = `${APP_HOME_URL}resume/`
 export const APP_CRUD_URL = `${APP_URL}crud/`
 export const APP_CRUD_EMPLOYEE_URL = `${APP_CRUD_URL}employee/`
 export const APP_WEATHER_URL = `${APP_URL}weather/`
+export const APP_BUS_URL = `${APP_URL}buses/`
 export const APP_SECURITY_URL = `${APP_URL}security/`
 export const APP_SECURITY_AUTHENTICATE_URL = `${APP_SECURITY_URL}authenticate/`
 export const APP_SECURITY_AUTHENTICATE_LOGIN_URL = `${APP_SECURITY_AUTHENTICATE_URL}log-in/`
