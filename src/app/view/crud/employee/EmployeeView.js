@@ -562,12 +562,12 @@ const EntityUpdate = () => {
                         <React.Fragment>
                             <div className="row">
                                 <div className="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 col-xxl-6 offset-xxl-3">
+                                    {
+                                        success ? (
+                                            <SuccessMessage success={success}/>
+                                        ) : null
+                                    }
                                     <form className="m-0 p-3 border border-muted bg-light" autoComplete="off" onSubmit={handleSubmit}>
-                                        {
-                                            success ? (
-                                                <SuccessMessage success={success}/>
-                                            ) : null
-                                        }
                                         <div className="m-0 mb-3 p-0">
                                             <label htmlFor="firstName" className="form-label fw-bolder">First Name:</label>
                                             <input

@@ -16,7 +16,7 @@ const Avatar = () => {
         <CenterLayout icon={FaUserCircle} title={"Avatar"}>
             {
                 isLoaded ? (
-                    <React.Fragment>AppSecurityProfileAvatar</React.Fragment>
+                    <React.Fragment>&nbsp;</React.Fragment>
                 ) : (
                     <LoadingLayout/>
                 )
